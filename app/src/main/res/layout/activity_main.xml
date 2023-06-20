@@ -11,8 +11,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fontFamily="@font/poppins"
+        android:layout_marginHorizontal="20dp"
         android:gravity="center"
-        android:text="Selamat datang di perpustakaan"
+        android:text="Selamat datang di Libralink App"
         android:textSize="25dp"
         android:textStyle="bold" />
 

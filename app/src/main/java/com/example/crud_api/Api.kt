@@ -23,7 +23,7 @@ object Api {
     }
     fun getRetrofit(): Retrofit {
         return Retrofit.Builder()
-            .baseUrl("http://192.168.43.22/server/index.php/ServerUas/")
+            .baseUrl("http://192.168.1.36/server/index.php/ServerUas/")
             .client(getInterceptor())
             .addConverterFactory(GsonConverterFactory.create())
             .build()
